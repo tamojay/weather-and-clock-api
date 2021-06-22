@@ -14,6 +14,14 @@ body {
     align-items: center;
     overflow: hidden;
 }
+.contact {
+  text-align: left;
+  font-size: 0.75rem;
+  font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
+  color: #888888;
+  text-shadow: 0 0 0.25rem #484848;
+}
 .app-title h3 {
   padding: auto;
   max-width: 10rem;
