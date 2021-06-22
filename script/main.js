@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
         .then(data => {
           console.log(data)
           const temperature = data.main.temp;
-          const desc = data.weather.description;
+          const desc = data.weather[0].description;
           const city = data.name;
           const country = data.sys.country;
 
