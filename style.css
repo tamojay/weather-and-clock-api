@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #C0C0C0;
 }
 body {
     margin: 7.5rem;
@@ -159,7 +158,7 @@ body {
   text-shadow: 0 0 0.25rem #484848;
 }
 .temp-description {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #888888;
   text-shadow: 0 0 0.25rem #484848;
   padding-top: auto;
@@ -185,7 +184,10 @@ body {
     max-width: 12rem;
   }
   .location {
-    font-size: 0.75rem;
+    font-size: 1.25rem;
+  }
+  .temp-description {
+    font-size: 1.25rem;
   }
 }
 
@@ -197,6 +199,7 @@ body {
     align-items: center;
   }
   .app-title h3 {
+    font-size: 2.5rem;
     max-width: 10rem;
     text-align: center;
     padding: auto;
@@ -210,7 +213,10 @@ body {
     max-width: 16rem;
   }
   .location {
-    font-size: 0.5rem;
+    font-size: 0.755rem;
+  }
+  .temp-description {
+    font-size: 0.75rem;
   }
 }
 
@@ -222,6 +228,7 @@ body {
     align-items: center;
   }
   .app-title h3 {
+    font-size: 1.75rem;
     max-width: 6rem;
     text-align: center;
     padding: auto;
@@ -235,6 +242,9 @@ body {
     max-width: 12rem;
   }
   .location {
+    font-size: 0.5rem;
+  }
+  .temp-description {
     font-size: 0.5rem;
   }
 }
