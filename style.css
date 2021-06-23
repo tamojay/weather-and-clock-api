@@ -164,3 +164,77 @@ body {
   text-shadow: 0 0 0.25rem #484848;
   padding-top: auto;
 }
+@media only screen and (max-width:55rem) {
+  body {
+    max-height: 100vh;
+    margin: 8rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .app-title h3 {
+    max-width: 10rem;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 2rem;
+  }
+  .clock {
+    max-width: 12rem;
+    max-height: 12rem;
+  }
+  .weather-container {
+    max-width: 12rem;
+  }
+  .location {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width:40rem) {
+  body {
+    max-height: 100vh;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .app-title h3 {
+    max-width: 10rem;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 1.25rem;
+  }
+  .clock {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  .weather-container {
+    max-width: 16rem;
+  }
+  .location {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width:25rem) {
+  body {
+    max-height: 100vh;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .app-title h3 {
+    max-width: 6rem;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 0.75rem;
+  }
+  .clock {
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+  .weather-container {
+    max-width: 12rem;
+  }
+  .location {
+    font-size: 0.5rem;
+  }
+}
